@@ -32,7 +32,7 @@ def main():
     )
 
     # Load the data directly
-    file_path = "train.csv"  # Replace with your dataset's file path
+    file_path = "data/train.csv"  # Replace with your dataset's file path
     try:
         data = load_data(file_path)
     except FileNotFoundError:
