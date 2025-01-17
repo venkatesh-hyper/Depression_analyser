@@ -1,6 +1,6 @@
 streamlit
 pandas 
 joblib
-numpy 
+numpy
+statsmodels
 gdown
-huggingface_hub
