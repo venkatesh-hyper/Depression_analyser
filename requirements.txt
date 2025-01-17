@@ -4,5 +4,5 @@ joblib
 numpy
 statsmodels
 gdown
-sklearn
+scikit-learn
 os
