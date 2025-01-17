@@ -43,6 +43,12 @@ Download the trained model: If you're using the pre-trained model stored on Goog
 Run the app:
 
     streamlit run webapp.py
+
+**The Dashboard**: 
+   A user-friendly interface where individuals can input their symptoms or behavioral data to receive predictions on their mental health. You can check out the live dashboard   here [[Depression Dashboard](https://depresdash.streamlit.app/).
+
+**The Model Implementation**: 
+   A backend system where the actual machine learning model runs and processes the input data to make predictions. You can test out the live model implementation here:          [Depression Analysis Model](https://depressanalysis.streamlit.app/).
     
 How to Use
 
