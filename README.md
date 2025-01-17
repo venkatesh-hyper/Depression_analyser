@@ -49,44 +49,47 @@ How to Use
 Input Information:
 
 Gender: Select either "Male" or "Female".
+
 Age: Enter your age.
+
 Sleep Duration: Select your average sleep duration.
+
 Work/Study Hours: Enter the total number of hours spent working or studying per week.
+
 Financial Stress: Use the slider to rate your financial stress on a scale of 0 (none) to 10 (extreme).
+
 Academic/Work Pressure: Use the slider to rate your academic/work pressure on a scale of 0 (none) to 10 (extreme).
+
 Job/Study Satisfaction: Use the slider to rate your job/study satisfaction.
+
 Family History of Mental Illness: Select "Yes" or "No".
+
 Suicidal Thoughts: Select "Yes" or "No" if you've ever had suicidal thoughts.
+
 Prediction: After providing your inputs, click the "Predict" button. The app will predict the likelihood of depression and provide a suggestion to consult a mental health professional if necessary.
 
+
 Model Explanation
-The model used for prediction is an ensemble machine learning model that has been trained on a dataset containing information such as:
+   The model used for prediction is an ensemble machine learning model that has been trained on a dataset containing information such as:
 
-Age
-Gender
-Sleep duration
-Financial stress
-Academic/work pressure
-Family history of mental illness
-Experience with suicidal thoughts
-The model predicts whether a user might be at risk for depression based on these inputs. The prediction results are displayed as either:
+Age,
+Gender,
+Sleep duration,
+Financial stress,
+Academic/work pressure,
+Family history of mental illness,
+Experience with suicidal thoughts.
 
-Likely to have depression (recommend consulting a mental health professional)
-Unlikely to have depression
-Folder Structure
-bash
-Copy
-Edit
-depression-prediction-app/
-│
-├── app.py                  # Main Streamlit app
-├── model/                  # Folder containing the pre-trained model and scaler
-│   ├── ensemble_model.pkl  # Trained model file
-│   └── scaler.pkl          # Scaler for preprocessing input
-├── requirements.txt        # List of required Python libraries
-└── README.md               # Project documentation
+**
+The model predicts whether a user might be at risk for depression based on these inputs. The prediction results are displayed as either:**
+
+_Likely to have depression (recommend consulting a mental health professional)
+Unlikely to have depression_
+
+
 Requirements
-Python 3.7 or above
-Required Python packages (listed in requirements.txt)
+   Python 3.7 or above
+   Required Python packages (listed in requirements.txt)
+
 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+   This project is licensed under the MIT License - see the LICENSE file for details.
