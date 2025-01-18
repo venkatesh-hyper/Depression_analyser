@@ -45,37 +45,42 @@ Run the app:
     streamlit run webapp.py
 
 **The Dashboard**: 
-   A user-friendly interface where individuals can input their symptoms or behavioral data to receive predictions on their mental health. You can check out the live dashboard   here [[Depression Dashboard](https://depresdash.streamlit.app/).
+   A user-friendly interface where individuals can input their symptoms or behavioral data to receive predictions on their mental health. You can check out the live dashboard   here [[Depression Dashboard](https://depresdash.streamlit.app/)
+   ![Dashboard](data/dashboard.png).
 
 **The Model Implementation**: 
    A backend system where the actual machine learning model runs and processes the input data to make predictions. You can test out the live model implementation here:          [Depression Analysis Model](https://depressanalysis.streamlit.app/).
+    ![Model Implementation](data/phase.png).
+   
     
-How to Use
+**How to Use**
 
 Input Information:
 
-Gender: Select either "Male" or "Female".
+   Gender: Select either "Male" or "Female".
 
-Age: Enter your age.
+   Age: Enter your age.
 
-Sleep Duration: Select your average sleep duration.
+   Sleep Duration: Select your average sleep duration.
 
-Work/Study Hours: Enter the total number of hours spent working or studying per week.
+   Work/Study Hours: Enter the total number of hours spent working or studying per week.
 
-Financial Stress: Use the slider to rate your financial stress on a scale of 0 (none) to 10 (extreme).
+   Financial Stress: Use the slider to rate your financial stress on a scale of 0 (none) to 10 (extreme).
 
-Academic/Work Pressure: Use the slider to rate your academic/work pressure on a scale of 0 (none) to 10 (extreme).
+   Academic/Work Pressure: Use the slider to rate your academic/work pressure on a scale of 0 (none) to 10 (extreme).
 
-Job/Study Satisfaction: Use the slider to rate your job/study satisfaction.
+   Job/Study Satisfaction: Use the slider to rate your job/study satisfaction.
 
-Family History of Mental Illness: Select "Yes" or "No".
+   Family History of Mental Illness: Select "Yes" or "No".
 
-Suicidal Thoughts: Select "Yes" or "No" if you've ever had suicidal thoughts.
-
-Prediction: After providing your inputs, click the "Predict" button. The app will predict the likelihood of depression and provide a suggestion to consult a mental health professional if necessary.
+   Suicidal Thoughts: Select "Yes" or "No" if you've ever had suicidal thoughts.
 
 
-Model Explanation
+**Prediction**
+   After providing your inputs, click the "Predict" button. The app will predict the likelihood of depression and provide a suggestion to consult a mental health professiona       if necessary.
+
+
+**Model Explanation**
    The model used for prediction is an ensemble machine learning model that has been trained on a dataset containing information such as:
 
 Age,
