@@ -81,16 +81,15 @@ Run the app:
    Family history of mental illness,
    Experience with suicidal thoughts.
 
-**
-The model predicts whether a user might be at risk for depression based on these inputs. The prediction results are displayed as either:**
+**The model predicts whether a user might be at risk for depression based on these inputs. The prediction results are displayed as either:**
 
 _Likely to have depression (recommend consulting a mental health professional)
 Unlikely to have depression_
 
 
-Requirements
+**Requirements**
    Python 3.7 or above
    Required Python packages (listed in requirements.txt)
 
-License
+**License**
    This project is licensed under the MIT License - see the LICENSE file for details.
